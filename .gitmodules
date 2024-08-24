@@ -8,3 +8,6 @@
 [submodule "ECommons"]
 	path = ECommons
 	url = https://github.com/NightmareXIV/ECommons.git
+[submodule "AbilityAntsPlugin"]
+	path = AbilityAntsPlugin
+	url = https://github.com/Tykku/AbilityAntsPlugin
