@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github Actions", "Github Ac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommons", "ECommons\ECommons\ECommons.csproj", "{3E8E720E-9990-4202-9035-12F54C78CF47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbilityAnts", "AbilityAntsPlugin\AbilityAntsPlugin\AbilityAnts.csproj", "{9327095E-986F-4BDE-A820-E6243DCD504B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -38,6 +40,12 @@ Global
 		{3E8E720E-9990-4202-9035-12F54C78CF47}.GitBuild|x64.Build.0 = Debug|x64
 		{3E8E720E-9990-4202-9035-12F54C78CF47}.Release|x64.ActiveCfg = Release|x64
 		{3E8E720E-9990-4202-9035-12F54C78CF47}.Release|x64.Build.0 = Release|x64
+		{9327095E-986F-4BDE-A820-E6243DCD504B}.Debug|x64.ActiveCfg = Debug|x64
+		{9327095E-986F-4BDE-A820-E6243DCD504B}.Debug|x64.Build.0 = Debug|x64
+		{9327095E-986F-4BDE-A820-E6243DCD504B}.GitBuild|x64.ActiveCfg = Debug|x64
+		{9327095E-986F-4BDE-A820-E6243DCD504B}.GitBuild|x64.Build.0 = Debug|x64
+		{9327095E-986F-4BDE-A820-E6243DCD504B}.Release|x64.ActiveCfg = Release|x64
+		{9327095E-986F-4BDE-A820-E6243DCD504B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
