@@ -45,6 +45,8 @@ namespace XIVSlothCombo.Core
         public double MeleeOffset { get; set; } = 0;
 
         public Vector4 TargetHighlightColor { get; set; } = new() { W = 1, X = 0.5f, Y = 0.5f, Z = 0.5f };
+        
+        public bool TeachingMode { get; set; } = false;
 
         #endregion
 

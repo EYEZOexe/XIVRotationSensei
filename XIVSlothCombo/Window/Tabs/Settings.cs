@@ -129,6 +129,25 @@ namespace XIVSlothCombo.Window.Tabs
                 ImGui.TextUnformatted("Disables the Message of the Day message in your chat when you login.");
                 ImGui.EndTooltip();
             }
+            
+            #region Teaching Mode
+
+            bool teachingModeEnabled = Service.Configuration.TeachingMode;
+            if (ImGui.Checkbox("Enable Teaching Mode", ref teachingModeEnabled))
+            {
+                Service.Configuration.TeachingMode = teachingModeEnabled;
+                Service.Configuration.Save();
+            }
+
+            if (ImGui.IsItemHovered())
+            {
+                ImGui.BeginTooltip();
+                ImGui.TextUnformatted("Will highlight next best action in your rotation");
+                ImGui.EndTooltip();
+            }
+
+            #endregion
+            
             ImGui.NextColumn();
 
             #endregion
