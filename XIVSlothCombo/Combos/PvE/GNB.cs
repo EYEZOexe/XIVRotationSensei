@@ -324,9 +324,10 @@ namespace XIVSlothCombo.Combos.PvE
         internal class GNB_ST_AdvancedMode : CustomCombo
         {
             protected internal override CustomComboPreset Preset { get; } = CustomComboPreset.GNB_ST_Advanced;
-
+            public Hooks Hook;
             protected override uint Invoke(uint actionID, uint lastComboMove, float comboTime, byte level)
             {
+                
                 if (actionID is KeenEdge)
                 {
                     var Ammo = GetJobGauge<GNBGauge>().Ammo; //Our carts
@@ -345,7 +346,6 @@ namespace XIVSlothCombo.Combos.PvE
                     if (IsEnabled(CustomComboPreset.GNB_ST_RangedUptime) &&
                         !InMeleeRange() && LevelChecked(LightningShot) && HasBattleTarget())
                     {
-                        
                         return LightningShot;
                     }
                         
@@ -571,7 +571,7 @@ namespace XIVSlothCombo.Combos.PvE
                             return SolidBarrel;
                     }
 
-                    return KeenEdge;
+                    return actionID;
                 }
 
                 return actionID;

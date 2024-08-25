@@ -24,6 +24,7 @@ namespace XIVSlothCombo.Services
 
         [PluginService] public static IGameInteropProvider GameInteropProvider { get; private set; } = null!;
         [PluginService] public static IDataManager DataManager { get; private set; } = null!;
+        [PluginService] public static IClientState ClientState { get; private set; } = null!;
         
         public static XIVSlothCombo Plugin { get; private set; }
         

@@ -12,6 +12,7 @@ namespace XIVSlothCombo.CustomComboNS
     /// <summary> Base class for each combo. </summary>
     internal abstract partial class CustomCombo : CustomComboFunctions
     {
+        public static uint NewActionID { get; private set; }
         /// <summary> Initializes a new instance of the <see cref="CustomCombo"/> class. </summary>
         protected CustomCombo()
         {
@@ -68,6 +69,7 @@ namespace XIVSlothCombo.CustomComboNS
                 return false;
 
             newActionID = resultingActionID;
+            NewActionID = newActionID;
 
             return true;
         }

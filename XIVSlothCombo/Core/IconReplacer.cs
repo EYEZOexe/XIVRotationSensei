@@ -33,7 +33,7 @@ namespace XIVSlothCombo.Core
 
             getIconHook = Svc.Hook.HookFromAddress<GetIconDelegate>((nint)ActionManager.Addresses.GetAdjustedActionId.Value, GetIconDetour);
             isIconReplaceableHook = Svc.Hook.HookFromAddress<IsIconReplaceableDelegate>(Service.Address.IsActionIdReplaceable, IsIconReplaceableDetour);
-
+            
             getIconHook.Enable();
             isIconReplaceableHook.Enable();
         }
@@ -74,10 +74,10 @@ namespace XIVSlothCombo.Core
 
                 foreach (CustomCombo? combo in customCombos)
                 {
-                    if (combo.TryInvoke(actionID, level, lastComboMove, comboTime, out uint newActionID))
-                        return newActionID;
+                     if (combo.TryInvoke(actionID, level, lastComboMove, comboTime, out uint newActionID))
+                         return actionID;
                 }
-
+            
                 return OriginalHook(actionID);
             }
 

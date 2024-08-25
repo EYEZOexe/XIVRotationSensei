@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Dalamud.Game.ClientState.Conditions;
 using Dalamud.Hooking;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.Game;
+using Lumina.Excel.GeneratedSheets2;
+using XIVSlothCombo.Combos.PvE;
+using XIVSlothCombo.CustomComboNS;
 using XIVSlothCombo.Services;
 using Action = Lumina.Excel.GeneratedSheets.Action;
 
@@ -13,8 +17,6 @@ namespace XIVSlothCombo.Utils;
 public sealed unsafe class Hooks : IDisposable
 {
     public readonly Hook<ActionManager.Delegates.IsActionHighlighted> IsActionHighlightedHook = null!;
-    
-    private Dictionary<uint, Action> CachedActions;
     
     public Hooks()
     {
@@ -32,15 +34,17 @@ public sealed unsafe class Hooks : IDisposable
     }
     
     private bool HandleIsActionHighlighted(ActionManager* manager, ActionType actionType, uint actionId)
-    { 
-        bool result = IsActionHighlightedHook.Original(manager, actionType, actionId);
-        // if (result) return result;
-        // if (actionType != ActionType.Action) return result;
-        //if (CachedActions == null) CacheActions();
-        //var action = CachedActions[actionId];
-        //if (actionId == 16143) return true;
+    {
+        //check if in battle
+        bool inCombat = Conditions.IsInCombat;
+            
         
-        return result;
+        if (CustomCombo.NewActionID == actionId && inCombat && actionType == ActionType.Action)
+        {
+            return true;
+        }
+        
+        return false;
     }
     
     
