@@ -69,7 +69,7 @@ namespace XIVSlothCombo.CustomComboNS
                 return false;
 
             newActionID = resultingActionID;
-            NewActionID = newActionID;
+            NewActionID = resultingActionID;
 
             return true;
         }
