@@ -38,7 +38,7 @@ public sealed unsafe class Hooks : IDisposable
         // if (actionType != ActionType.Action) return result;
         //if (CachedActions == null) CacheActions();
         //var action = CachedActions[actionId];
-        if (actionId == 16143) return true;
+        //if (actionId == 16143) return true;
         
         return result;
     }

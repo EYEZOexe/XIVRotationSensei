@@ -9,6 +9,7 @@ using FFXIVClientStructs.FFXIV.Client.System.Framework;
 using FFXIVClientStructs.FFXIV.Client.UI;
 using FFXIVClientStructs.FFXIV.Client.UI.Misc;
 using XIVSlothCombo.Services;
+using XIVSlothCombo.Utils;
 
 
 namespace XIVSlothCombo.Combos.PvE
@@ -344,6 +345,7 @@ namespace XIVSlothCombo.Combos.PvE
                     if (IsEnabled(CustomComboPreset.GNB_ST_RangedUptime) &&
                         !InMeleeRange() && LevelChecked(LightningShot) && HasBattleTarget())
                     {
+                        
                         return LightningShot;
                     }
                         

@@ -71,7 +71,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\AbilityAntsPlugin\AbilityAntsPlugin\AbilityAnts.csproj" />
 	  <ProjectReference Include="..\ECommons\ECommons\ECommons.csproj" />
 	</ItemGroup>
 
