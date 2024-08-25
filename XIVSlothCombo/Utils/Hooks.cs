@@ -20,7 +20,7 @@ public sealed unsafe class Hooks : IDisposable
     {
         IsActionHighlightedHook = Service.GameInteropProvider.HookFromAddress<ActionManager.Delegates.IsActionHighlighted>(ActionManager.MemberFunctionPointers.IsActionHighlighted, HandleIsActionHighlighted);
         
-        CacheActions();
+        //CacheActions();
         
         IsActionHighlightedHook.Enable();
     }
@@ -40,22 +40,8 @@ public sealed unsafe class Hooks : IDisposable
         //var action = CachedActions[actionId];
         if (actionId == 16143) return true;
         
-         return result;
+        return result;
     }
     
-    public void CacheActions()
-    {
-        CachedActions = new();
-        var actions = Service.DataManager.GetExcelSheet<Action>()!.
-            Where(a => !a.IsPvP && a.ClassJob.Value?.Unknown6 > 0 && a.IsPlayerAction && (a.ActionCategory.Row == 4 || a.Recast100ms > 100)).ToList();
-        foreach (var action in actions)
-        {
-            CachedActions[action.RowId] = action;
-        }
-        var roleActions = Service.DataManager.GetExcelSheet<Action>()!.Where(a => a.IsRoleAction && a.ClassJobLevel != 0).ToList();
-        foreach (var ra in roleActions)
-        {
-            CachedActions[ra.RowId] = ra;
-        }
-    }
+    
 }
