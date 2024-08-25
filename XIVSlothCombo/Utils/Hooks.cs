@@ -39,7 +39,7 @@ public sealed unsafe class Hooks : IDisposable
         //check if in battle
         bool inCombat = Conditions.IsInCombat;
         
-        if (CustomCombo.NewActionID == actionId && inCombat && actionType == ActionType.Action)
+        if (CustomCombo.NewActionID == actionId && actionType == ActionType.Action)
         {
             return true;
         }
