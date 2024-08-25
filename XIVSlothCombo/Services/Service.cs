@@ -1,5 +1,9 @@
+using Dalamud.IoC;
+using Dalamud.Plugin;
+using Dalamud.Plugin.Services;
 using XIVSlothCombo.Core;
 using XIVSlothCombo.Data;
+
 
 namespace XIVSlothCombo.Services
 {
@@ -17,5 +21,16 @@ namespace XIVSlothCombo.Services
 
         /// <summary> Gets or sets the plugin icon replacer. </summary>
         internal static IconReplacer IconReplacer { get; set; } = null!;
+
+        [PluginService] public static IGameInteropProvider GameInteropProvider { get; private set; } = null!;
+        [PluginService] public static IDataManager DataManager { get; private set; } = null!;
+        
+        public static XIVSlothCombo Plugin { get; private set; }
+        
+        internal static void Initialize(XIVSlothCombo plugin, IDalamudPluginInterface iface)
+        {
+            Plugin = plugin;
+            iface.Create<Service>();
+        }
     }
 }

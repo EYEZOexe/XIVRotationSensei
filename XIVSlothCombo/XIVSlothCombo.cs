@@ -23,6 +23,7 @@ using XIVSlothCombo.Combos.PvP;
 using XIVSlothCombo.Core;
 using XIVSlothCombo.Data;
 using XIVSlothCombo.Services;
+using XIVSlothCombo.Utils;
 using XIVSlothCombo.Window;
 using XIVSlothCombo.Window.Tabs;
 
@@ -33,6 +34,8 @@ namespace XIVSlothCombo
     {
         private const string Command = "/scombo";
 
+        private Hooks Hooks { get; }
+        
         private readonly ConfigWindow ConfigWindow;
         private readonly TargetHelper TargetHelper;
         internal readonly AboutUs AboutUs;
@@ -92,24 +95,30 @@ namespace XIVSlothCombo
         /// <param name="pluginInterface"> Dalamud plugin interface. </param>
         public XIVSlothCombo(IDalamudPluginInterface pluginInterface)
         {
+            
             P = this;
-            pluginInterface.Create<Service>();
+            Service.Initialize(this, pluginInterface);
             ECommonsMain.Init(pluginInterface, this);
 
             Service.Configuration = pluginInterface.GetPluginConfig() as PluginConfiguration ?? new PluginConfiguration();
             Service.Address = new PluginAddressResolver();
             Service.Address.Setup(Svc.SigScanner);
             PresetStorage.Init();
-
+            
+            
+            
             Service.ComboCache = new CustomComboCache();
             Service.IconReplacer = new IconReplacer();
             ActionWatching.Enable();
             Combos.JobHelpers.AST.Init();
-
+            
+            Hooks = new Hooks();
+            
             ConfigWindow = new ConfigWindow();
             TargetHelper = new();
             AboutUs = new();
             ws = new();
+            
             ws.AddWindow(ConfigWindow);
             ws.AddWindow(TargetHelper);
 
@@ -250,6 +259,8 @@ namespace XIVSlothCombo
             ActionWatching.Dispose();
             Combos.JobHelpers.AST.Dispose();
             DisposeOpeners();
+            
+            Hooks.Dispose();
 
             Svc.ClientState.Login -= PrintLoginMessage;
             P = null;

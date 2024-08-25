@@ -1,8 +1,15 @@
+using System;
+using System.Linq;
 using Dalamud.Game.ClientState.JobGauge.Types;
 using Dalamud.Game.ClientState.Statuses;
 using XIVSlothCombo.Combos.PvE.Content;
 using XIVSlothCombo.CustomComboNS;
 using XIVSlothCombo.Data;
+using FFXIVClientStructs.FFXIV.Client.System.Framework;
+using FFXIVClientStructs.FFXIV.Client.UI;
+using FFXIVClientStructs.FFXIV.Client.UI.Misc;
+using XIVSlothCombo.Services;
+
 
 namespace XIVSlothCombo.Combos.PvE
 {
@@ -334,9 +341,12 @@ namespace XIVSlothCombo.Combos.PvE
                         return Variant.VariantCure;
 
                     //Ranged Uptime
-                    if (IsEnabled(CustomComboPreset.GNB_ST_RangedUptime) && 
+                    if (IsEnabled(CustomComboPreset.GNB_ST_RangedUptime) &&
                         !InMeleeRange() && LevelChecked(LightningShot) && HasBattleTarget())
+                    {
                         return LightningShot;
+                    }
+                        
 
                     //NoMercy
                     if (IsEnabled(CustomComboPreset.GNB_ST_Advanced_CooldownsGroup) && IsEnabled(CustomComboPreset.GNB_ST_NoMercy))
