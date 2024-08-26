@@ -37,6 +37,7 @@ public sealed unsafe class Hooks : IDisposable
     {
         if (!Service.Configuration.TeachingMode) return false;
         //check if in battle
+        //
         bool inCombat = Conditions.IsInCombat;
         
         if (CustomCombo.NewActionID == actionId && actionType == ActionType.Action)
