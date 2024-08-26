@@ -1,0 +1,15 @@
+C:\Users\NAT20\AppData\Roaming\XIVLauncher\devPlugins\XIVSlothCombo\images\xivslothcombo.png
+C:\Users\NAT20\AppData\Roaming\XIVLauncher\devPlugins\XIVSlothCombo\XIVSlothCombo.deps.json
+C:\Users\NAT20\AppData\Roaming\XIVLauncher\devPlugins\XIVSlothCombo\XIVSlothCombo.dll
+C:\Users\NAT20\AppData\Roaming\XIVLauncher\devPlugins\XIVSlothCombo\XIVSlothCombo.pdb
+C:\Users\NAT20\AppData\Roaming\XIVLauncher\devPlugins\XIVSlothCombo\XIVSlothCombo.xml
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.csproj.AssemblyReference.cache
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.GeneratedMSBuildEditorConfig.editorconfig
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.AssemblyInfoInputs.cache
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.AssemblyInfo.cs
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.csproj.CoreCompileInputs.cache
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.sourcelink.json
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSloth.62D59A69.Up2Date
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.dll
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.xml
+E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVSlothCombo\obj\x64\Debug\XIVSlothCombo.pdb

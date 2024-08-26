@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OxlkakjhHi9phzvMN9bnCDgRQrQD7Bla0nCGuPFxT5pd27Y6haGYZebP1CJg0xJq3m7dZm5IkEYPzZXLJ9Y8aQ==",
+  "success": true,
+  "projectFilePath": "E:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\XIVRotationSensei\\XIVRotationSensei.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NAT20\\.nuget\\packages\\dalamudpackager\\2.1.13\\dalamudpackager.2.1.13.nupkg.sha512",
+    "C:\\Users\\NAT20\\.nuget\\packages\\ilrepack\\2.0.18\\ilrepack.2.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
