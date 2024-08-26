@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyleft attick 2021 thanks attick UwU")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("XIVCombo for lazy players")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.2.0.8")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.2.0.8+7cd7eb6af0a4ac4c68e9582406b3a077fa50f67e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.2.0.8+774992ff07e55e6a672b9858627140c2c3817812")]
 [assembly: System.Reflection.AssemblyProductAttribute("XIVSlothCombo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XIVRotationSensei")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.2.0.8")]

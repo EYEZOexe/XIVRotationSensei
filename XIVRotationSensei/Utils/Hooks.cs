@@ -36,9 +36,7 @@ public sealed unsafe class Hooks : IDisposable
     private bool HandleIsActionHighlighted(ActionManager* manager, ActionType actionType, uint actionId)
     {
         if (!Service.Configuration.TeachingMode) return false;
-        //check if in battle
-        //
-        bool inCombat = Conditions.IsInCombat;
+        //bool inCombat = Conditions.IsInCombat;
         
         if (CustomCombo.NewActionID == actionId && actionType == ActionType.Action)
         {

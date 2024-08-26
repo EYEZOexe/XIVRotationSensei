@@ -29,7 +29,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about">About XIVSlothCombo</a></li>
+    <li><a href="#about">About XIVRotationSensei</a></li>
     <li><a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -45,9 +45,9 @@
 <!-- About XIVSlothCombo -->
 <section id="about">
 <a href="#about" alt="About"><img src="/res/readme_images/About.png" height="60px" /></a>
-  <p> XIVSlothCombo is a plugin for <a href="https://goatcorp.github.io/" alt="XIVLauncher">XIVLauncher</a>.<br><br>
-      It's a heavily enhanced version of the XIVCombo plugin, offering highly customisable features and options to provide users with a combo set as simple or complex as desired; for PvE, PvP and more.<br><br>
-    XIVSlothCombo is regularly updated to include new features and to keep up-to-date with the latest job changes in Final Fantasy XIV.
+  <p> XIVRotationSensei is a plugin for <a href="https://goatcorp.github.io/" alt="XIVLauncher">XIVLauncher</a>.<br><br>
+      It's a rotation teacher which highlights the next best action and uses the XIVRotationSensei plugin framework.<br><br>
+    XIVRotationSensei is regularly updated to include new features and to keep up-to-date with the latest job changes in Final Fantasy XIV.
 </section>
 
 <!-- Getting Started -->
