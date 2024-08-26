@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.Attributes
+namespace XIVRotationSensei.Attributes
 {
     /// <summary> Attribute documenting which skill the feature uses the user does not have active currently. </summary>
     [AttributeUsage(AttributeTargets.Field)]

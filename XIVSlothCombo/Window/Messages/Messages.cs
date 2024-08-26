@@ -1,7 +1,7 @@
 ﻿using Dalamud.Interface.Colors;
 using ImGuiNET;
 
-namespace XIVSlothCombo.Window.MessagesNS
+namespace XIVRotationSensei.Window.MessagesNS
 {
     internal static class Messages
     {

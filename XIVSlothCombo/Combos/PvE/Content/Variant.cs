@@ -1,6 +1,6 @@
 ﻿using ECommons.DalamudServices;
 
-namespace XIVSlothCombo.Combos.PvE.Content
+namespace XIVRotationSensei.Combos.PvE.Content
 {
     internal static class Variant
     {

@@ -5,11 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.Extensions;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.Extensions;
 
-namespace XIVSlothCombo.Core
+namespace XIVRotationSensei.Core
 {
     /// <summary> Plugin configuration. </summary>
     [Serializable]
@@ -214,18 +214,18 @@ namespace XIVSlothCombo.Core
 
                         if (!needToResetMessagePrinted)
                         {
-                            Svc.Chat.PrintError($"[XIVSlothCombo] Some features have been disabled due to an internal configuration update:");
+                            Svc.Chat.PrintError($"[XIVRotationSensei] Some features have been disabled due to an internal configuration update:");
                             needToResetMessagePrinted = !needToResetMessagePrinted;
                         }
 
                         var info = preset.GetComboAttribute();
-                        Svc.Chat.PrintError($"[XIVSlothCombo] - {info.JobName}: {info.FancyName}");
+                        Svc.Chat.PrintError($"[XIVRotationSensei] - {info.JobName}: {info.FancyName}");
                         EnabledActions.Remove(preset);
                     }
                 }
 
                 if (needToResetMessagePrinted)
-                    Svc.Chat.PrintError($"[XIVSlothCombo] Please re-enable these features to use them again. We apologise for the inconvenience");
+                    Svc.Chat.PrintError($"[XIVRotationSensei] Please re-enable these features to use them again. We apologise for the inconvenience");
             }
             SetResetValues(config, true);
             Save();

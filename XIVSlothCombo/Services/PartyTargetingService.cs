@@ -3,7 +3,7 @@ using FFXIVClientStructs.FFXIV.Client.System.Framework;
 using System;
 using GameObject = FFXIVClientStructs.FFXIV.Client.Game.Object.GameObject;
 
-namespace XIVSlothCombo.Services
+namespace XIVRotationSensei.Services
 {
     public static unsafe class PartyTargetingService
     {

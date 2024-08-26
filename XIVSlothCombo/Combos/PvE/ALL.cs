@@ -1,8 +1,8 @@
 ﻿using ECommons.DalamudServices;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal class All
     {

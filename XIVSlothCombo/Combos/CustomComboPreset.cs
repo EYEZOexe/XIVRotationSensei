@@ -1,9 +1,9 @@
-﻿using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.Combos.PvP;
-using static XIVSlothCombo.Combos.PvE.BRD;
+﻿using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.Combos.PvP;
+using static XIVRotationSensei.Combos.PvE.BRD;
 
-namespace XIVSlothCombo.Combos
+namespace XIVRotationSensei.Combos
 {
     /// <summary> Combo presets. </summary>
     public enum CustomComboPreset

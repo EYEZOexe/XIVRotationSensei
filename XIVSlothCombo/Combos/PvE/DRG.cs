@@ -1,12 +1,12 @@
 using Dalamud.Game.ClientState.JobGauge.Types;
 using Dalamud.Game.ClientState.Statuses;
-using XIVSlothCombo.Combos.JobHelpers;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Extensions;
+using XIVRotationSensei.Combos.JobHelpers;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Extensions;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal class DRG
     {

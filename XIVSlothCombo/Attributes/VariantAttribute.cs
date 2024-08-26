@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XIVSlothCombo.Attributes
+namespace XIVRotationSensei.Attributes
 {
     /// <summary> Attribute designating variant combos. </summary>
     [AttributeUsage(AttributeTargets.Field)]

@@ -3,11 +3,11 @@ using Dalamud.Game.ClientState.JobGauge.Types;
 using Dalamud.Game.ClientState.Statuses;
 using System;
 using System.ComponentModel.Design;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.CustomComboNS;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.CustomComboNS;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal static class BRD
     {

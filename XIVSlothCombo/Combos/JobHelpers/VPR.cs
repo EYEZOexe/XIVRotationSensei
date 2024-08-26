@@ -1,12 +1,12 @@
 ﻿using Dalamud.Game.ClientState.JobGauge.Types;
 using ECommons.DalamudServices;
 using FFXIVClientStructs.FFXIV.Client.Game;
-using XIVSlothCombo.Combos.JobHelpers.Enums;
-using XIVSlothCombo.Data;
-using static XIVSlothCombo.Combos.PvE.VPR;
-using static XIVSlothCombo.CustomComboNS.Functions.CustomComboFunctions;
+using XIVRotationSensei.Combos.JobHelpers.Enums;
+using XIVRotationSensei.Data;
+using static XIVRotationSensei.Combos.PvE.VPR;
+using static XIVRotationSensei.CustomComboNS.Functions.CustomComboFunctions;
 
-namespace XIVSlothCombo.Combos.JobHelpers
+namespace XIVRotationSensei.Combos.JobHelpers
 {
     internal class VPRHelpers
     {

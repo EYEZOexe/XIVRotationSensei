@@ -6,11 +6,11 @@ using ECommons.ImGuiMethods;
 using ImGuiNET;
 using System.Linq;
 using System.Numerics;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.Services;
-using XIVSlothCombo.Window.Functions;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.Services;
+using XIVRotationSensei.Window.Functions;
 
-namespace XIVSlothCombo.Window.Tabs
+namespace XIVRotationSensei.Window.Tabs
 {
     internal class PvPFeatures : ConfigWindow
     {

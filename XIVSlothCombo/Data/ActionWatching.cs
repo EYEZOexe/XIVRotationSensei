@@ -9,11 +9,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.Data
+namespace XIVRotationSensei.Data
 {
     public static class ActionWatching
     {

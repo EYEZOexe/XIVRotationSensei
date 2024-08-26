@@ -1,7 +1,7 @@
-﻿using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
+﻿using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
 
-namespace XIVSlothCombo.Extensions
+namespace XIVRotationSensei.Extensions
 {
     internal static class UIntExtensions
     {

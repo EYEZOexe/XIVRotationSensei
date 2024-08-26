@@ -2,9 +2,9 @@
 using Dalamud.Plugin.Services;
 using ECommons.DalamudServices;
 using System.Linq;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

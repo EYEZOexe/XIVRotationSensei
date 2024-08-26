@@ -1,7 +1,7 @@
-﻿using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
+﻿using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
 
-namespace XIVSlothCombo.Combos.PvP
+namespace XIVRotationSensei.Combos.PvP
 {
     internal static class PCTPvP
     {

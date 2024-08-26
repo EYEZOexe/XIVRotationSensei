@@ -2,11 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.Core
+namespace XIVRotationSensei.Core
 {
     internal static class PresetStorage
     {

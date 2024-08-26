@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.Core;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.Core;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

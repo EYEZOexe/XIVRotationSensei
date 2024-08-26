@@ -1,8 +1,8 @@
-﻿using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.CustomComboNS;
+﻿using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.CustomComboNS;
 
-namespace XIVSlothCombo.Combos.PvP
+namespace XIVRotationSensei.Combos.PvP
 {
     internal static class SAMPvP
     {

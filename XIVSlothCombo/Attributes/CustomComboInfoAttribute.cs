@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using XIVSlothCombo.Combos.PvE;
+using XIVRotationSensei.Combos.PvE;
 
-namespace XIVSlothCombo.Attributes
+namespace XIVRotationSensei.Attributes
 {
     /// <summary> Attribute documenting additional information for each combo. </summary>
     [AttributeUsage(AttributeTargets.Field)]

@@ -2,14 +2,14 @@ using Dalamud.Game.ClientState.JobGauge.Types;
 using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Game.ClientState.Statuses;
 using System.Collections.Generic;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
 using System.Linq;
-using XIVSlothCombo.Extensions;
+using XIVRotationSensei.Extensions;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal static class SCH
     {

@@ -1,7 +1,7 @@
-﻿using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.CustomComboNS.Functions;
+﻿using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.CustomComboNS.Functions;
 
-namespace XIVSlothCombo.Combos.JobHelpers
+namespace XIVRotationSensei.Combos.JobHelpers
 {
     internal class SGE : CustomComboFunctions
     {

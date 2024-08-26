@@ -1,12 +1,12 @@
 using Dalamud.Game.ClientState.JobGauge.Types;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
-using static XIVSlothCombo.Combos.JobHelpers.RPR;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
+using static XIVRotationSensei.Combos.JobHelpers.RPR;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal class RPR
     {

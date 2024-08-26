@@ -2,12 +2,12 @@
 using ECommons.DalamudServices;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using System.Linq;
-using XIVSlothCombo.Combos.JobHelpers.Enums;
-using XIVSlothCombo.Data;
-using static XIVSlothCombo.Combos.PvE.MCH;
-using static XIVSlothCombo.CustomComboNS.Functions.CustomComboFunctions;
+using XIVRotationSensei.Combos.JobHelpers.Enums;
+using XIVRotationSensei.Data;
+using static XIVRotationSensei.Combos.PvE.MCH;
+using static XIVRotationSensei.CustomComboNS.Functions.CustomComboFunctions;
 
-namespace XIVSlothCombo.Combos.JobHelpers
+namespace XIVRotationSensei.Combos.JobHelpers
 {
     internal class MCHHelpers
     {

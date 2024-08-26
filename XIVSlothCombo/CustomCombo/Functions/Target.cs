@@ -6,11 +6,11 @@ using FFXIVClientStructs.FFXIV.Client.System.Framework;
 using System;
 using System.Linq;
 using System.Numerics;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Services;
 using StructsObject = FFXIVClientStructs.FFXIV.Client.Game.Object;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

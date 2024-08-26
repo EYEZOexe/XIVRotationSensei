@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Timers;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

@@ -1,13 +1,13 @@
 ﻿using Dalamud.Game.ClientState.JobGauge.Types;
 using ECommons.DalamudServices;
 using FFXIVClientStructs.FFXIV.Client.Game;
-using XIVSlothCombo.Combos.JobHelpers.Enums;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
-using static XIVSlothCombo.Combos.PvE.RPR;
-using static XIVSlothCombo.CustomComboNS.Functions.CustomComboFunctions;
+using XIVRotationSensei.Combos.JobHelpers.Enums;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
+using static XIVRotationSensei.Combos.PvE.RPR;
+using static XIVRotationSensei.CustomComboNS.Functions.CustomComboFunctions;
 
-namespace XIVSlothCombo.Combos.JobHelpers
+namespace XIVRotationSensei.Combos.JobHelpers
 {
     internal class RPR
     {

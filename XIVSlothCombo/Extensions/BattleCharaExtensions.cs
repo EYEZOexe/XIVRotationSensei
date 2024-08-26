@@ -1,6 +1,6 @@
 ﻿using Dalamud.Game.ClientState.Objects.Types;
 
-namespace XIVSlothCombo.Extensions
+namespace XIVRotationSensei.Extensions
 {
     internal static class BattleCharaExtensions
     {

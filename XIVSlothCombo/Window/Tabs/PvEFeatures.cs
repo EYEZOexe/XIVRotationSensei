@@ -5,12 +5,12 @@ using ECommons.ImGuiMethods;
 using ImGuiNET;
 using System.Linq;
 using System.Numerics;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.Services;
-using XIVSlothCombo.Window.Functions;
-using XIVSlothCombo.Window.MessagesNS;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.Services;
+using XIVRotationSensei.Window.Functions;
+using XIVRotationSensei.Window.MessagesNS;
 
-namespace XIVSlothCombo.Window.Tabs
+namespace XIVRotationSensei.Window.Tabs
 {
     internal class PvEFeatures : ConfigWindow
     {

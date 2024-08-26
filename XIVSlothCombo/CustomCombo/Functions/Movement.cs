@@ -1,6 +1,6 @@
 ﻿using FFXIVClientStructs.FFXIV.Client.UI.Agent;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

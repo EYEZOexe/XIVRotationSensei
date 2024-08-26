@@ -1,13 +1,13 @@
 using Dalamud.Game.ClientState.JobGauge.Types;
 using ECommons.DalamudServices;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Extensions;
-using static XIVSlothCombo.Combos.JobHelpers.MCHHelpers;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Extensions;
+using static XIVRotationSensei.Combos.JobHelpers.MCHHelpers;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal class MCH
     {

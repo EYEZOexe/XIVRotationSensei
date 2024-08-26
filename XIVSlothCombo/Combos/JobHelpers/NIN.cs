@@ -2,12 +2,12 @@
 using Dalamud.Game.ClientState.JobGauge.Types;
 using ECommons.DalamudServices;
 using System;
-using XIVSlothCombo.Combos.JobHelpers.Enums;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Extensions;
+using XIVRotationSensei.Combos.JobHelpers.Enums;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Extensions;
 
-namespace XIVSlothCombo.Combos.JobHelpers
+namespace XIVRotationSensei.Combos.JobHelpers
 {
     internal class NIN
     {

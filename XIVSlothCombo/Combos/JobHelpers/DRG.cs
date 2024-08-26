@@ -1,12 +1,12 @@
 ﻿using ECommons.DalamudServices;
 using System.Collections.Generic;
 using System.Linq;
-using XIVSlothCombo.Combos.JobHelpers.Enums;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
+using XIVRotationSensei.Combos.JobHelpers.Enums;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
 
-namespace XIVSlothCombo.Combos.JobHelpers
+namespace XIVRotationSensei.Combos.JobHelpers
 {
     internal class DRGOpenerLogic : DRG
     {

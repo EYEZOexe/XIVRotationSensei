@@ -1,11 +1,11 @@
 using Dalamud.Game.ClientState.Conditions;
-using XIVSlothCombo.Combos.JobHelpers;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
-using static XIVSlothCombo.Combos.JobHelpers.RDMHelper;
+using XIVRotationSensei.Combos.JobHelpers;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
+using static XIVRotationSensei.Combos.JobHelpers.RDMHelper;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal class RDM
     {

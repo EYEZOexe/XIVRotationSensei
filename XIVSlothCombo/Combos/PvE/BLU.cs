@@ -1,7 +1,7 @@
 ﻿using Dalamud.Game.ClientState.Conditions;
-using XIVSlothCombo.CustomComboNS;
+using XIVRotationSensei.CustomComboNS;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal static class BLU
     {

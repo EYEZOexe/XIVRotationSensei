@@ -4,7 +4,7 @@ using ImGuiNET;
 using System;
 using System.Numerics;
 
-namespace XIVSlothCombo.Window
+namespace XIVRotationSensei.Window
 {
     internal class InfoBox
     {

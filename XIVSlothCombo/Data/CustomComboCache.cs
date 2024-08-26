@@ -7,7 +7,7 @@ using System;
 using System.Collections.Concurrent;
 using DalamudStatus = Dalamud.Game.ClientState.Statuses; // conflicts with structs if not defined
 
-namespace XIVSlothCombo.Data
+namespace XIVRotationSensei.Data
 {
     /// <summary> Cached conditional combo logic. </summary>
     internal partial class CustomComboCache : IDisposable

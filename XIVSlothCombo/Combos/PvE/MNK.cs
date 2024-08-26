@@ -2,14 +2,14 @@ using Dalamud.Game.ClientState.JobGauge.Enums;
 using Dalamud.Game.ClientState.JobGauge.Types;
 using System;
 using System.Linq;
-using XIVSlothCombo.Combos.JobHelpers;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Extensions;
+using XIVRotationSensei.Combos.JobHelpers;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Extensions;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal class MNK
     {

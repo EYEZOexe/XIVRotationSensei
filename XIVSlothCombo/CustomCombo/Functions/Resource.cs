@@ -1,8 +1,8 @@
 ﻿using Dalamud.Game.ClientState.JobGauge.Types;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

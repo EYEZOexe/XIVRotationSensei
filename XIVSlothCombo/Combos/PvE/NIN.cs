@@ -2,14 +2,14 @@ using Dalamud.Game.ClientState.JobGauge.Types;
 using Dalamud.Game.ClientState.Statuses;
 using ECommons.DalamudServices;
 using System;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Extensions;
-using static XIVSlothCombo.Combos.JobHelpers.NIN;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Extensions;
+using static XIVRotationSensei.Combos.JobHelpers.NIN;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal class NIN
     {

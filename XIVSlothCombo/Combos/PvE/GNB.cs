@@ -2,17 +2,17 @@ using System;
 using System.Linq;
 using Dalamud.Game.ClientState.JobGauge.Types;
 using Dalamud.Game.ClientState.Statuses;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.Data;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.Data;
 using FFXIVClientStructs.FFXIV.Client.System.Framework;
 using FFXIVClientStructs.FFXIV.Client.UI;
 using FFXIVClientStructs.FFXIV.Client.UI.Misc;
-using XIVSlothCombo.Services;
-using XIVSlothCombo.Utils;
+using XIVRotationSensei.Services;
+using XIVRotationSensei.Utils;
 
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal static class GNB
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace XIVSlothCombo.Extensions
+namespace XIVRotationSensei.Extensions
 {
     internal static class ListExtensions
     {

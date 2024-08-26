@@ -7,17 +7,17 @@ using ImGuiNET;
 using System;
 using System.Linq;
 using System.Numerics;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.Combos.PvP;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Extensions;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.Combos.PvP;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Extensions;
+using XIVRotationSensei.Services;
 
 
-namespace XIVSlothCombo.Window.Functions
+namespace XIVRotationSensei.Window.Functions
 {
     public static class UserConfig
     {

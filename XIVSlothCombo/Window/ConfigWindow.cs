@@ -8,13 +8,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.Window.Tabs;
+using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.Window.Tabs;
 
-namespace XIVSlothCombo.Window
+namespace XIVRotationSensei.Window
 {
     /// <summary> Plugin configuration window. </summary>
     internal class ConfigWindow : Dalamud.Interface.Windowing.Window
@@ -110,7 +110,7 @@ namespace XIVSlothCombo.Window
 
             using (var leftChild = ImRaii.Child($"###SlothLeftSide", regionSize with { Y = topLeftSideHeight }, false, ImGuiWindowFlags.NoDecoration))
             {
-                if (ThreadLoadImageHandler.TryGetTextureWrap(@"https://github.com/Taurenkey/XIVSlothCombo/blob/main/res/plugin/xivslothcombo.png?raw=true", out var logo))
+                if (ThreadLoadImageHandler.TryGetTextureWrap(@"https://github.com/Taurenkey/XIVRotationSensei/blob/main/res/plugin/XIVRotationSensei.png?raw=true", out var logo))
                 {
                     ImGuiEx.LineCentered("###SlothLogo", () =>
                     {

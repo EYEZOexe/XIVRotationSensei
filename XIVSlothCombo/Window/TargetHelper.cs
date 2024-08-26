@@ -6,11 +6,11 @@ using ImGuiNET;
 using System;
 using System.Numerics;
 using System.Runtime.InteropServices;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Services;
 
 
-namespace XIVSlothCombo.Window;
+namespace XIVRotationSensei.Window;
 
 internal class TargetHelper : Dalamud.Interface.Windowing.Window
 {

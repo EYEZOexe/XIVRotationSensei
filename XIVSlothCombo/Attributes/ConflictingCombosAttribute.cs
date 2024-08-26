@@ -1,7 +1,7 @@
 ﻿using System;
-using XIVSlothCombo.Combos;
+using XIVRotationSensei.Combos;
 
-namespace XIVSlothCombo.Attributes
+namespace XIVRotationSensei.Attributes
 {
     /// <summary> Attribute documenting conflicting presets for each combo. </summary>
     [AttributeUsage(AttributeTargets.Field)]

@@ -1,6 +1,6 @@
-using XIVSlothCombo.CustomComboNS;
+using XIVRotationSensei.CustomComboNS;
 
-namespace XIVSlothCombo.Combos.PvP
+namespace XIVRotationSensei.Combos.PvP
 {
     internal static class MCHPvP
     {

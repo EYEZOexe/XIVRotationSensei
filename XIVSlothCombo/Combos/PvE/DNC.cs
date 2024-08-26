@@ -1,11 +1,11 @@
 ﻿using Dalamud.Game.ClientState.JobGauge.Types;
-using XIVSlothCombo.Combos.PvE.Content;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Combos.PvE.Content;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.Combos.PvE
+namespace XIVRotationSensei.Combos.PvE
 {
     internal static class DNC
     {

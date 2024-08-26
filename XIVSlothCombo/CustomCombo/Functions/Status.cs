@@ -1,11 +1,11 @@
 ﻿using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Game.ClientState.Statuses;
 using FFXIVClientStructs.FFXIV.Client.Game;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Services;
 using Status = Dalamud.Game.ClientState.Statuses.Status;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

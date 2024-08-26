@@ -6,13 +6,13 @@ using Dalamud.Hooking;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using Lumina.Excel.GeneratedSheets2;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.Services;
 using Action = Lumina.Excel.GeneratedSheets.Action;
 
 
-namespace XIVSlothCombo.Utils;
+namespace XIVRotationSensei.Utils;
 
 public sealed unsafe class Hooks : IDisposable
 {

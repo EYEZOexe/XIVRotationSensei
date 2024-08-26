@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.CustomComboNS.Functions
+namespace XIVRotationSensei.CustomComboNS.Functions
 {
     internal abstract partial class CustomComboFunctions
     {

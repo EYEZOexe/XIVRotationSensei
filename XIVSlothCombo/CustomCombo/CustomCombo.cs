@@ -1,13 +1,13 @@
 ﻿using Dalamud.Utility;
 using ECommons.DalamudServices;
 using FFXIVClientStructs.FFXIV.Client.Game;
-using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Extensions;
+using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Extensions;
 
-namespace XIVSlothCombo.CustomComboNS
+namespace XIVRotationSensei.CustomComboNS
 {
     /// <summary> Base class for each combo. </summary>
     internal abstract partial class CustomCombo : CustomComboFunctions

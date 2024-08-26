@@ -1,8 +1,8 @@
 ﻿using System;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.Data;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.Data;
 
-namespace XIVSlothCombo.Combos.PvP
+namespace XIVRotationSensei.Combos.PvP
 {
     internal static class GNBPvP
     {

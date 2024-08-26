@@ -16,21 +16,21 @@ using System.Linq;
 using System.Net.Http;
 using System.Reflection;
 using System.Threading.Tasks;
-using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Combos.PvE;
-using XIVSlothCombo.Combos.PvP;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Services;
-using XIVSlothCombo.Utils;
-using XIVSlothCombo.Window;
-using XIVSlothCombo.Window.Tabs;
+using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Combos.PvE;
+using XIVRotationSensei.Combos.PvP;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Services;
+using XIVRotationSensei.Utils;
+using XIVRotationSensei.Window;
+using XIVRotationSensei.Window.Tabs;
 
-namespace XIVSlothCombo
+namespace XIVRotationSensei
 {
     /// <summary> Main plugin implementation. </summary>
-    public sealed partial class XIVSlothCombo : IDalamudPlugin
+    public sealed partial class XIVRotationSensei : IDalamudPlugin
     {
         private const string Command = "/scombo";
 
@@ -39,7 +39,7 @@ namespace XIVSlothCombo
         private readonly ConfigWindow ConfigWindow;
         private readonly TargetHelper TargetHelper;
         internal readonly AboutUs AboutUs;
-        internal static XIVSlothCombo? P = null!;
+        internal static XIVRotationSensei? P = null!;
         internal WindowSystem ws;
         private readonly HttpClient httpClient = new();
 
@@ -91,9 +91,9 @@ namespace XIVSlothCombo
             }
         }
 
-        /// <summary> Initializes a new instance of the <see cref="XIVSlothCombo"/> class. </summary>
+        /// <summary> Initializes a new instance of the <see cref="XIVRotationSensei"/> class. </summary>
         /// <param name="pluginInterface"> Dalamud plugin interface. </param>
-        public XIVSlothCombo(IDalamudPluginInterface pluginInterface)
+        public XIVRotationSensei(IDalamudPluginInterface pluginInterface)
         {
             
             P = this;
@@ -214,8 +214,8 @@ namespace XIVSlothCombo
         {
             try
             {
-                string basicMessage = $"Welcome to XIVSlothCombo v{this.GetType().Assembly.GetName().Version}!";
-                using HttpResponseMessage? motd = httpClient.GetAsync("https://raw.githubusercontent.com/Nik-Potokar/XIVSlothCombo/main/res/motd.txt").Result;
+                string basicMessage = $"Welcome to XIVRotationSensei v{this.GetType().Assembly.GetName().Version}!";
+                using HttpResponseMessage? motd = httpClient.GetAsync("https://raw.githubusercontent.com/Nik-Potokar/XIVRotationSensei/main/res/motd.txt").Result;
                 motd.EnsureSuccessStatusCode();
                 string? data = motd.Content.ReadAsStringAsync().Result;
                 List<Payload>? payloads =
@@ -241,7 +241,7 @@ namespace XIVSlothCombo
 
         /// <inheritdoc/>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Used for non-static only window initialization")]
-        public string Name => "XIVSlothCombo";
+        public string Name => "XIVRotationSensei";
 
         /// <inheritdoc/>
         public void Dispose()

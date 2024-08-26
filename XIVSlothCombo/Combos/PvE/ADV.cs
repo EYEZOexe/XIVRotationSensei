@@ -1,4 +1,4 @@
-﻿namespace XIVSlothCombo.Combos.PvE
+﻿namespace XIVRotationSensei.Combos.PvE
 {
     internal static class ADV
     {

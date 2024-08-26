@@ -6,11 +6,11 @@ using ECommons.GameFunctions;
 using ECommons.ExcelServices;
 using System.Collections.Generic;
 using System.Linq;
-using XIVSlothCombo.CustomComboNS.Functions;
-using XIVSlothCombo.Extensions;
-using static XIVSlothCombo.Combos.PvE.AST;
+using XIVRotationSensei.CustomComboNS.Functions;
+using XIVRotationSensei.Extensions;
+using static XIVRotationSensei.Combos.PvE.AST;
 
-namespace XIVSlothCombo.Combos.JobHelpers
+namespace XIVRotationSensei.Combos.JobHelpers
 {
     internal static class AST
     {

@@ -11,13 +11,13 @@ using System.Linq;
 using System.Numerics;
 using System.Reflection.Emit;
 using System.Text;
-using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Combos;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.Data;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Combos;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.Data;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.Window.Functions
+namespace XIVRotationSensei.Window.Functions
 {
     internal class Presets : ConfigWindow
     {

@@ -1,7 +1,7 @@
 ﻿using FFXIVClientStructs.FFXIV.Client.Game;
 using System.Linq;
 
-namespace XIVSlothCombo.Services
+namespace XIVRotationSensei.Services
 {
     internal unsafe static class BlueMageService
     {

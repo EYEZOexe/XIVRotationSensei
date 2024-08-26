@@ -4,7 +4,7 @@ using ECommons.ImGuiMethods;
 using ImGuiNET;
 using System.Numerics;
 
-namespace XIVSlothCombo.Window
+namespace XIVRotationSensei.Window
 {
     public static class IconButtons
     {

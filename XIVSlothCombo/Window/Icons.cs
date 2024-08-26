@@ -5,7 +5,7 @@ using ECommons.DalamudServices;
 using Lumina.Data.Files;
 using System.Collections.Generic;
 
-namespace XIVSlothCombo.Window
+namespace XIVRotationSensei.Window
 {
     internal static class Icons
     {

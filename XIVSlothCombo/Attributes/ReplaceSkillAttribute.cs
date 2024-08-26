@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using XIVSlothCombo.Data;
+using XIVRotationSensei.Data;
 
-namespace XIVSlothCombo.Attributes
+namespace XIVRotationSensei.Attributes
 {
     /// <summary> Attribute documenting which skill each preset replace. </summary>
     [AttributeUsage(AttributeTargets.Field)]

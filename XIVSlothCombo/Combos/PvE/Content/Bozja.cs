@@ -1,4 +1,4 @@
-﻿namespace XIVSlothCombo.Combos.PvE.Content
+﻿namespace XIVRotationSensei.Combos.PvE.Content
 {
     internal static class Bozja
     {

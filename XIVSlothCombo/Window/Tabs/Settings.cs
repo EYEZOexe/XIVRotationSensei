@@ -1,10 +1,10 @@
 ﻿using ImGuiNET;
 using System;
 using System.Numerics;
-using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.Window.Tabs
+namespace XIVRotationSensei.Window.Tabs
 {
     internal class Settings : ConfigWindow
     {

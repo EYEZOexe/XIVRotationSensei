@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System.IO;
 
-namespace XIVSlothCombo.Data
+namespace XIVRotationSensei.Data
 {
     public class RepoCheck
     {
@@ -14,7 +14,7 @@ namespace XIVSlothCombo.Data
         public static RepoCheck? FetchCurrentRepo()
         {
             FileInfo? f = Svc.PluginInterface.AssemblyLocation;
-            var manifest = Path.Join(f.DirectoryName, "XIVSlothCombo.json");
+            var manifest = Path.Join(f.DirectoryName, "XIVRotationSensei.json");
 
             if (File.Exists(manifest))
             {

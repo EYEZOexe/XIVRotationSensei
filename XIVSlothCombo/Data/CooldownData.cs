@@ -1,7 +1,7 @@
 ﻿using FFXIVClientStructs.FFXIV.Client.Game;
 using System;
 
-namespace XIVSlothCombo.Data
+namespace XIVRotationSensei.Data
 {
     internal class CooldownData
     {

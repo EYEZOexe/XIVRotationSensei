@@ -1,1 +1,1 @@
-﻿global using static XIVSlothCombo.XIVSlothCombo;
+﻿global using static XIVRotationSensei.XIVRotationSensei;

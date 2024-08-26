@@ -1,9 +1,9 @@
 ﻿using Dalamud.Utility;
 using System.Collections.Generic;
-using XIVSlothCombo.Attributes;
-using XIVSlothCombo.Combos;
+using XIVRotationSensei.Attributes;
+using XIVRotationSensei.Combos;
 
-namespace XIVSlothCombo.Extensions
+namespace XIVRotationSensei.Extensions
 {
     internal static class PresetExtensions
     {

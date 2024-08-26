@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XIVSlothCombo.Attributes
+namespace XIVRotationSensei.Attributes
 {
     /// <summary> Attribute designating Bozja combos. </summary>
     [AttributeUsage(AttributeTargets.Field)]

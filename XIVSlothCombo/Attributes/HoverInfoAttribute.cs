@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XIVSlothCombo.Attributes
+namespace XIVRotationSensei.Attributes
 {
     [AttributeUsage(AttributeTargets.Field)]
     public class HoverInfoAttribute : Attribute

@@ -1,4 +1,4 @@
-﻿namespace XIVSlothCombo.Combos.JobHelpers.Enums
+﻿namespace XIVRotationSensei.Combos.JobHelpers.Enums
 {
     internal enum OpenerState
     {

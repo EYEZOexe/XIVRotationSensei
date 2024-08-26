@@ -2,7 +2,7 @@ using Dalamud.Game;
 using ECommons.DalamudServices;
 using System;
 
-namespace XIVSlothCombo.Core
+namespace XIVRotationSensei.Core
 {
     /// <summary> Plugin address resolver. </summary>
     internal class PluginAddressResolver

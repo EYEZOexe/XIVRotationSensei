@@ -6,10 +6,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using XIVSlothCombo.CustomComboNS;
-using XIVSlothCombo.Services;
+using XIVRotationSensei.CustomComboNS;
+using XIVRotationSensei.Services;
 
-namespace XIVSlothCombo.Core
+namespace XIVRotationSensei.Core
 {
     /// <summary> This class facilitates icon replacement. </summary>
     internal sealed partial class IconReplacer : IDisposable

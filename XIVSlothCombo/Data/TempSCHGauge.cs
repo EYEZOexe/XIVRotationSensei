@@ -4,7 +4,7 @@ using ECommons.DalamudServices;
 using System;
 using System.Runtime.InteropServices;
 
-namespace XIVSlothCombo.Data;
+namespace XIVRotationSensei.Data;
 
 public unsafe class TmpSCHGauge
 {

@@ -1,11 +1,11 @@
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
-using XIVSlothCombo.Core;
-using XIVSlothCombo.Data;
+using XIVRotationSensei.Core;
+using XIVRotationSensei.Data;
 
 
-namespace XIVSlothCombo.Services
+namespace XIVRotationSensei.Services
 {
     /// <summary> Dalamud and plugin services. </summary>
     internal class Service
@@ -26,9 +26,9 @@ namespace XIVSlothCombo.Services
         [PluginService] public static IDataManager DataManager { get; private set; } = null!;
         [PluginService] public static IClientState ClientState { get; private set; } = null!;
         
-        public static XIVSlothCombo Plugin { get; private set; }
+        public static XIVRotationSensei Plugin { get; private set; }
         
-        internal static void Initialize(XIVSlothCombo plugin, IDalamudPluginInterface iface)
+        internal static void Initialize(XIVRotationSensei plugin, IDalamudPluginInterface iface)
         {
             Plugin = plugin;
             iface.Create<Service>();
