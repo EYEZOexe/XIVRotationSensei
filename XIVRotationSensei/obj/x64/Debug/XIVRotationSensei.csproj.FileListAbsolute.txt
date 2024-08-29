@@ -13,3 +13,13 @@ E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRota
 E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.dll
 E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.xml
 E:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.pdb
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.csproj.AssemblyReference.cache
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.GeneratedMSBuildEditorConfig.editorconfig
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.AssemblyInfoInputs.cache
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.AssemblyInfo.cs
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.csproj.CoreCompileInputs.cache
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.sourcelink.json
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotat.932945E8.Up2Date
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.dll
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.xml
+G:\SquareEnix\Dev Plugins\XIVSenseiCombo\XIVRotationSensei\obj\x64\Debug\XIVRotationSensei.pdb

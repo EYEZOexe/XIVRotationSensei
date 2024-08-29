@@ -42,7 +42,7 @@
   </ol>
 </details>
 
-<!-- About XIVSlothCombo -->
+<!-- About XIVRotationSensei -->
 <section id="about">
 <a href="#about" alt="About"><img src="/res/readme_images/About.png" height="60px" /></a>
   <p> XIVRotationSensei is a plugin for <a href="https://goatcorp.github.io/" alt="XIVLauncher">XIVLauncher</a>.<br><br>

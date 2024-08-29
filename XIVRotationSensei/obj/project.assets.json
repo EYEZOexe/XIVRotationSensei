@@ -84,11 +84,11 @@
   "project": {
     "version": "3.2.0.8",
     "restore": {
-      "projectUniqueName": "E:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\XIVRotationSensei\\XIVRotationSensei.csproj",
-      "projectName": "XIVSlothCombo",
-      "projectPath": "E:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\XIVRotationSensei\\XIVRotationSensei.csproj",
+      "projectUniqueName": "G:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\XIVRotationSensei\\XIVRotationSensei.csproj",
+      "projectName": "XIVRotationSensei",
+      "projectPath": "G:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\XIVRotationSensei\\XIVRotationSensei.csproj",
       "packagesPath": "C:\\Users\\NAT20\\.nuget\\packages\\",
-      "outputPath": "E:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\XIVRotationSensei\\obj\\",
+      "outputPath": "G:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\XIVRotationSensei\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NAT20\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +105,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "E:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\ECommons\\ECommons\\ECommons.csproj": {
-              "projectPath": "E:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\ECommons\\ECommons\\ECommons.csproj"
+            "G:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\ECommons\\ECommons\\ECommons.csproj": {
+              "projectPath": "G:\\SquareEnix\\Dev Plugins\\XIVSenseiCombo\\ECommons\\ECommons\\ECommons.csproj"
             }
           }
         }
