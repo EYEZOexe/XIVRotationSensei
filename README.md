@@ -214,3 +214,5 @@
   <br><br>
   And many other <a href="https://github.com/Nik-Potokar/XIVSlothCombo/graphs/contributors" alt="Contributors">contributors</a>!
 </p>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=EYEZOexe)](https://github.com/anuraghazra/github-readme-stats)
